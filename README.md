@@ -169,7 +169,7 @@ docker-compose up
 ### Test 1, search docs by name field and jawa
 #### Request:
 ```
-GET http://localhost:8080/api/client/posts/search?field=name&query="jawa"
+GET http://localhost:8080/api/client/posts/search?field=name&query=jawa
 ```
 #### Response:
 ```
